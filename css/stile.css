@@ -34,14 +34,14 @@ body{
     flex-direction: row-reverse;
     align-items: center;
   }
-  .hidden{
+  i.hidden{
     display: none;
   }
   @media screen and (max-width:768px) {
         .container-big{
             width:600px;
         }
-        .hidden{
+        header i.hidden{
             flex-basis:50% ;
             height: 100%;
             display: flex;
