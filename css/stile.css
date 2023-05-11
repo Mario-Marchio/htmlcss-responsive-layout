@@ -48,7 +48,32 @@ body{
             flex-direction: row-reverse;
             align-items: center;
           }
+          i{
+            padding: 20px;
+            font-size: 1.8rem;
+            color: white;
+          }
         .header-right{
             display: none;
         }
   }
+  @media screen and (max-width:480px) {
+    .container-big{
+        width:400px;
+    }
+    header i.hidden{
+        flex-basis:50% ;
+        height: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+      }
+      i{
+        padding: 20px;
+        font-size: 1.8rem;
+        color: white;
+      }
+    .header-right{
+        display: none;
+    }
+}
